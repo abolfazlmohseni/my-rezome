@@ -1,0 +1,397 @@
+@font-face {
+    font-family: iransans;
+    src: url(../font/IRANSansWeb_Medium.woff2);
+}
+
+*::selection {
+    background-color: #707070;
+    color: #fff;
+}
+
+
+
+
+
+
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    max-width: 1900px;
+    font-family: iransans;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: bidy;
+    animation-duration: 2s;
+}
+@keyframes bidy {
+from {
+    background-color: #000;
+    width: 0%;
+}
+    to {
+        width: 100%;
+        background-color: #fff;
+    }
+}
+.conteyner {
+    width: 100%;
+    height: 8100px;
+    position: relative;
+}
+
+.Menu {
+    width: 99%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 51px;
+    justify-content: space-around;
+    margin-top: 15px;
+    transition: all ease-in-out 0.3s;
+    position: absolute;
+    animation-name: menu-anime;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    top: 0;
+}
+
+.MyName {
+    color: #0C2785;
+    font-size: 28px;
+}
+
+.Menu-Items-Conteyner {
+    width: 440px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu-Items {
+    font-size: 16px;
+    color: #707070;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.Menu-Items:hover {
+    color: #0C2785;
+    transform: scale(1.40);
+}
+
+.HireMe {
+    background-color: #0C2785;
+    font: 14px;
+    width: 137px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.HireMe a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 4rem;
+    height: 330px;
+    position: absolute;
+    animation-name: more-anime;
+    /* animation-delay: s; */
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    left: 0;
+}
+
+.more-box-left {
+    width: 40%;
+}
+
+.titel {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.main-titel {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-size: 16px;
+    color: #707070;
+    margin: 5px;
+}
+
+.Follow-Me {
+    color: #707070;
+    font-size: 14px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.icons a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.more-Box-Right {
+    width: 60%;
+    position: relative;
+}
+
+.wallpaper {
+    width: 550px;
+    height: 320px;
+    background-color: #0C2785;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.imag-box {
+    position: absolute;
+    margin-right: 45px;
+    margin-top: 15px;
+    background-color: #707070;
+    width: 540px;
+    height: 310px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.Abut-Me {
+    margin-top: 4rem;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    animation-name: abut-anime;
+    /* animation-delay: s; */
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    left: 0;
+}
+
+.main_box-right {
+    width: 42%;
+    display: flex;
+}
+
+.main_box-left {
+    width: 40%;
+}
+
+.Conteyner_Imag-Left {
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.Imag_Left-One,
+.Imag_Left-Two,
+.Imag_RIght-Three,
+.Imag_RIght-four {
+    width: 200px;
+    height: 200px;
+    background-color: #707070;
+    margin-bottom: 20px;
+}
+
+.AbutMe-Titel {
+    margin: 3px;
+}
+
+.Border {
+    width: 9%;
+    height: 5px;
+    background: #0C2785;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.contact {
+    line-height: 2.25;
+    margin-top: 2rem;
+}
+
+.Services-conteyner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Services {
+    display: flex;
+    margin-top: 4rem;
+
+}
+
+
+.Text-Conteyner {
+    width: 42%;
+}
+
+.Services-Titel {
+    margin: 3px;
+}
+
+.Text-Services {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+
+.content {
+    line-height: 2.15;
+}
+
+
+.box_Services-conteyner {
+    width: 60%;
+    display: flex;
+}
+
+
+.Services_right .Services-box {
+    margin-top: 11rem;
+}
+
+
+.Services-box {
+    width: 200px;
+    height: 250px;
+    box-shadow: 2px 2px 6px #00000025,
+        -2px -2px 6px #00000025;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 3px; */
+    transition: all ease 0.4s;
+}
+
+.Services-box:hover {
+    background-color: #112c8f;
+    color: #fff;
+}
+
+.Services_box-Icon {
+    height: 80px;
+}
+
+
+.Services_box-Titel p {
+    margin: 0;
+    font-size: 22px;
+}
+
+
+
+.Services_Text-content {
+    text-align: center;
+    width: 150px;
+}
+
+.Services_Left {
+    margin-right: 25px;
+}
+.line-section{
+    width: 100%;
+    margin-top: 4rem;
+    background-color: #112c8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-box{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.line-item{
+    color: #fff;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.line-item p {
+    margin: 0;
+    font-size: 19px;
+}
+.number{
+    font-size: 24px !important;
+}
+
+.spenser-menu {
+    width: 100%;
+    height: 15px;
+    margin-top: 70px;
+}
+
+.spenser-more{
+    width: 100%;
+    height:20px;
+    margin-top: 410px;
+
+}
+.spenser-main{
+    width: 100%;
+    height: 30px;
+margin-top: 500px;
+}
+.spenser-line{
+    width: 100%;
+    height: 30px;
+
+}
+/* انیمیشن ورود به صفحه */
+@keyframes menu-anime {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+@keyframes more-anime {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@keyframes abut-anime {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: -24%;
+    } 
+}
+
+
+/* انیمیشن ورود به صفحه پایان */
+
+
