@@ -41,6 +41,7 @@ body {
     width: 100%;
     height: 8100px;
     position: relative;
+    overflow: hidden;
 }
 
 .Menu {
@@ -234,6 +235,8 @@ body {
 .Services-conteyner {
     width: 80%;
     margin-right: 20%;
+    position: absolute;
+    left: 0;
 }
 
 .Services {
@@ -341,6 +344,12 @@ body {
 .line-item p {
     margin: 0;
     font-size: 19px;
+}
+
+.spenser-services {
+    width: 100%;
+    height: 1px;
+    margin-top: 600px;
 }
 
 .number {
@@ -468,7 +477,7 @@ body {
 
 .hire-right-box {
     width: 50%;
-    height: 200px;
+    height: 390px;
 }
 
 .hire-tite {
@@ -581,7 +590,7 @@ footer {
     justify-content: center;
 }
 
-.Follow-box{
+.Follow-box {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -589,26 +598,25 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
 .one {
     background-color: #0C2785;
     color: #fff;
     padding: 10px;
     border-radius: 4px;
-} 
-.Follow-Items{
+}
+
+.Follow-Items {
     width: 130px;
     height: 130px;
 
 }
 
-.Items-Text{
+.Items-Text {
     font-size: 16px;
 }
 
-.Follow-Items{
-
-}
-.my-name{
+.my-name {
     width: 20%;
     height: 60px;
     margin-left: auto;
@@ -622,18 +630,20 @@ footer {
     flex-direction: row-reverse;
 }
 
-.myname-style{
+.myname-style {
     width: 15px;
     height: 15px;
     background-color: #000;
     border-radius: 15px;
 }
+
 .my-name p {
     margin: 0 0;
     margin-left: 10px;
 
 }
-.mini-menu{
+
+.mini-menu {
     width: 35%;
     display: flex;
     flex-direction: row-reverse;
@@ -646,12 +656,12 @@ footer {
 
 }
 
-.mini-Menu-Items{
+.mini-Menu-Items {
     text-decoration: none;
     color: #707070;
 }
 
-.ownership{
+.ownership {
     height: 40px;
     width: 100%;
     text-align: center;
@@ -659,7 +669,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.ownership-content{
+.ownership-content {
     color: #707070;
     opacity: 0.6;
 }
@@ -699,3 +709,67 @@ footer {
 
 
 /* انیمیشن ورود به صفحه پایان */
+
+/* ریسپاسسیو */
+@media screen and (max-width:1024px) {
+    .more {
+        width: 92%;
+        left: 40px;
+    }
+
+    .Abut-Me {
+        width: 92%;
+        left: 40px;
+    }
+
+    .Imag_Left-One,
+    .Imag_Left-Two,
+    .Imag_RIght-Three,
+    .Imag_RIght-four {
+        width: 150px;
+        height: 150px;
+    }
+    .Services-conteyner {
+        width: 92%;
+        left: 40px;
+    }
+    .line-box {
+        width: 80%;
+    }
+    .what-hire {
+        width: 92%;
+    }
+    .Follow-box {
+        width: 92%;
+    }
+    .mini-menu {
+        width: 45%;
+    }
+}
+@media screen and (max-width:768px) {
+    .Menu {
+        width: 35%;
+        height: 100%;
+        margin-top: 0;
+        background-color: #fff;
+        box-shadow:-5px 3px 101px -17px #00000045;
+        z-index: 3;
+        flex-direction: column;
+        align-items:flex-start;
+        right: 0;
+
+    }
+    .MyName {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+    .Menu-Items-Conteyner {
+        height: 55%;
+        width: 80%;
+        margin-right: 25px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+/* ریسپاسسیو پایان */
