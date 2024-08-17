@@ -86,7 +86,6 @@ body {
 
 .HireMe {
     background-color: #0C2785;
-    font: 14px;
     width: 137px;
     height: 51px;
     display: flex;
@@ -101,6 +100,24 @@ body {
 
 }
 
+.phone-menu {
+    display: none;
+    height: 51px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-name-res {
+    font-size: 22px;
+    color: #0C2785;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+
 .more {
     display: flex;
     justify-content: center;
@@ -111,7 +128,6 @@ body {
     height: 330px;
     position: absolute;
     animation-name: more-anime;
-    /* animation-delay: s; */
     animation-duration: 2s;
     animation-iteration-count: 1;
     left: 0;
@@ -729,47 +745,306 @@ footer {
         width: 150px;
         height: 150px;
     }
+
     .Services-conteyner {
         width: 92%;
         left: 40px;
     }
+
     .line-box {
         width: 80%;
     }
+
     .what-hire {
         width: 92%;
     }
+
     .Follow-box {
         width: 92%;
     }
+
     .mini-menu {
         width: 45%;
     }
 }
+
 @media screen and (max-width:768px) {
     .Menu {
-        width: 35%;
+        width: 250px;
         height: 100%;
         margin-top: 0;
         background-color: #fff;
-        box-shadow:-5px 3px 101px -17px #00000045;
+        box-shadow: -5px 3px 101px -17px #00000045;
         z-index: 3;
         flex-direction: column;
-        align-items:flex-start;
-        right: 0;
+        align-items: flex-start;
+        right: -270px;
 
     }
+
     .MyName {
         width: 100%;
         text-align: center;
         font-size: 24px;
     }
+
     .Menu-Items-Conteyner {
         height: 55%;
-        width: 80%;
+        width: 35%;
         margin-right: 25px;
         flex-direction: column;
         justify-content: space-around;
     }
+
+    .Hire-Me-Conteyner {
+        width: 100%;
+    }
+
+    .HireMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .phone-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .more {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        margin-top: 0;
+        width: 91%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .more-Box-Right {
+        height: 400px;
+        width: 90%;
+        margin-left: auto;
+
+    }
+
+    .more-box-left {
+        height: 300px;
+        width: 90%;
+        margin-left: auto;
+
+    }
+
+    .spenser-menu {
+
+        margin-top: 0;
+    }
+
+    .spenser-more {
+        margin-top: 690px;
+    }
+
+    .Abut-Me {
+        margin-top: 1rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_box-left,
+    .main_box-right {
+        height: 470px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: 1%;
+    }
+
+    .main_box-right {
+        justify-content: center;
+    }
+
+    .Imag_Left-One,
+    .Imag_Left-Two,
+    .Imag_RIght-Three,
+    .Imag_RIght-four {
+        width: 200px;
+        height: 200px;
+    }
+
+    .spenser-main {
+        margin-top: 1000px;
+    }
+
+    .Services {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Text-Conteyner {
+        width: 96%;
+    }
+    .Text-Services {
+        width: 100%;
+    }
+
+    .box_Services-conteyner {
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .spenser-services {
+        margin-top: 820px;
+    }
+
+    .line-box,
+    .skils-conteyner {
+        width: 95%;
+    }
+
+    .what-hire {
+        flex-direction: column;
+        align-items: center;
+        height: 820px;
+    }
+
+    .hire-right-box {
+        height: 400px;
+        width: 97%;
+    }
+
+    .hire-content {
+        width: 80%;
+    }
+
+    .hire-left-box {
+        height: 360px;
+        width: 70%;
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    .Follow-box {
+        display: none;
+    }
+
+    .my-name {
+        width: 30%;
+        margin-top: 1rem;
+    }
+
+    .mini-menu {
+        width: 60%;
+    }
+
+    body,
+    .Menu,
+    .more,
+    .Abut-Me {
+        animation-name: none;
+    }
+
 }
+
+@media screen and (max-width:425px) {
+    .more {
+        height: 350px;
+
+    }
+
+    .more-Box-Right {
+        display: none;
+
+    }
+
+    .more-box-left {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .text {
+        margin-top: 1rem;
+    }
+    .spenser-more {
+        margin-top: 350px;
+    }
+
+    .main_box-left {
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .main_box-right {
+        display: none;
+    }
+
+    .spenser-main {
+        margin-top: 520px;
+    }
+
+    .Services {
+        margin-right: auto;
+        width: 91%;
+    }
+
+    .box_Services-conteyner {
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .Services_Left {
+        margin-right: 0;
+    }
+
+    .Services_right .Services-box {
+        margin-top: 0;
+    }
+    .spenser-services {
+        margin-top: 1250px;
+    }
+    .line-box {
+        flex-direction: column;
+        height: 400px;
+    }
+    .skils-box {
+        flex-direction: column;
+        height: 810px;
+        margin-top: 2rem;
+    }
+    .what-hire {
+        margin-top: 1rem;
+    }
+    .hire-left-box {
+        width: 99%;
+    }
+    .hire-content {
+        width: 95%;
+    }
+    .line-box {
+        height: 280px;
+        padding: 10px 0;
+    }
+    .Border-light {
+        width: 40%;
+    }
+    .line-left {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        width: 95%;
+    }
+
+    .my-name {
+        width: 60%;
+    }
+    .mini-menu {
+        width: 100%;
+    }
+}
+
 /* ریسپاسسیو پایان */
