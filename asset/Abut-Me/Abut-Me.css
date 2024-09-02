@@ -616,7 +616,44 @@ footer {
     opacity: 0.6;
 }
 
+.challenge {
+    margin-top: 3rem;
+}
 
+@media screen and (max-width:1024px) {
+    .main-conteyner {
+        margin-right: 5%;
+    }
+
+    .main-imag {
+        width: 75%;
+    }
+
+    .text-conteyner {
+
+        width: 85%;
+    }
+
+    .Services-conteyner {
+        margin-right: 10%;
+    }
+
+    .line-box {
+        width: 80%;
+    }
+
+    .skils-conteyner {
+        width: 85%;
+    }
+
+    .what-hire {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:768px) {
     .Menu {
@@ -659,6 +696,50 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .main-content {
+        width: 50%;
+    }
+
+    .line-box {
+        width: 95%;
+    }
+
+    .skils-box {
+        width: 95%;
+    }
+
+    .hire-right-box {
+        width: 55%;
+    }
+
+    .hire-left-box {
+        width: 35%;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    .Follow-box {
+        display: none;
+    }
+
+    .my-name {
+        width: 30%;
+        margin-top: 1rem;
+    }
+
+    .mini-menu {
+        width: 60%;
+    }
+
+    body,
+    .Menu,
+    .more,
+    .Abut-Me {
+        animation-name: none;
     }
 }
 
