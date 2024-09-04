@@ -743,6 +743,39 @@ footer {
     }
 }
 
+@media screen and (max-width:768px) {
+
+    .Services,
+    .box_Services-conteyner,
+    .skils-box {
+        flex-direction: column;
+    }
+    .main-imag {
+        width: 80%;
+    }
+    .main-content {
+        width: 65%;
+    }
+    .Text-Conteyner {
+        width: 95%;
+    }
+    .box_Services-conteyner {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Services_right .Services-box {
+        margin-top: 2rem;
+    }
+    .Services_Left {
+        margin-right: 0;
+    }
+    .line-box {
+        flex-direction: column;
+        height: 420px; /*  beta !*/
+    }
+}
+
 
 
 
